@@ -279,7 +279,7 @@ function markdown(src) {
     replace(rx_space, '  ')
 
     // custom blogdata implementation
-    replace(rx_blogdata, function (all, id, name) { return (+id === 0 ? (window.location.protocol === "file:" ? '<a class="bold" href="index.html">' : '<a href="/">') : '<a href="blog-' + id + '.html">') + (name.slice(1) || blogTitles[id]) + '</a>' })
+    replace(rx_blogdata, function (all, id, name) { return (+id === 0 ? (window.location.protocol === "file:" ? '<a class="bold" href="index.html">' : '<a href="/blog/">') : '<a href="blog-' + id + '.html">') + (name.slice(1) || blogTitles[id]) + '</a>' })
     replace(rx_button, function (all, id, name) { return '<button id="' + id + '">' + name + '</button>' })
 
     // blockquote
