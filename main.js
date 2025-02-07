@@ -1,4 +1,4 @@
-const blogTitles = ["go to home", "first blog entry"]
+const blogTitles = ["go to home", "first blog entry", "very fast car"]
 const backgroundDisabled = false
 
 const RED = ["#fd361833", [1, 0.2, 0], [0.9, 0.1, 0.1], [0.6, 0.1, 0]]

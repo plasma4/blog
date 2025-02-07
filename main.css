@@ -103,3 +103,10 @@ a:active:visited {
 a.bold {
     color: #60d0f0;
 }
+
+table,
+td,
+tr {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
